@@ -3,7 +3,7 @@ slug: /deployment/cloud/certificates-domains
 title: Certificates & Domains
 ---
 
-Clone the `mango_cloud_cert_generation` repo to create and update valid certs:
+Clone 1234 the `mango_cloud_cert_generation` repo to create and update valid certs:
 
 ```bash
 git clone https://github.com/routerarchitects/mango_cloud_cert_generation.git
