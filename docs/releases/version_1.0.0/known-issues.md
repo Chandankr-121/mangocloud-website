@@ -5,9 +5,6 @@ title: Known Issues
 
 The following issues are identified in this release and may impact usability or expected behavior.
 
-#### Device Group required error when editing OLG device added via mobile app
-- When an OLG device is added through the mobile app and later edited via the UI, the system displays a “Device Group” required error
-
 #### Manual page refresh required after add or delete operations
 - A manual page refresh is required after adding or deleting a subscriber, device, or operator
 - Updated information does not appear automatically in the UI
