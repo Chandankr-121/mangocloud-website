@@ -122,13 +122,13 @@ const config = {
         title: '',
         logo: {
           alt: 'MangoCloud Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'html',
             value:
-              '<a href=\"/\" class=\"navbar__icon-link\" aria-label=\"MangoCloud\"><img src=\"/img/logo.svg\" alt=\"MangoCloud\" /></a>',
+              '<a href=\"/\" class=\"navbar__icon-link\" aria-label=\"MangoCloud\"><img src=\"/img/logo.png\" alt=\"MangoCloud\" /></a>',
             position: 'left',
           },
           {to: '/', label: 'Home', position: 'left'},

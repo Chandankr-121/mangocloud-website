@@ -124,29 +124,83 @@ a[href='https://www.routerarchitects.com'] {
 
 .members-grid {
   margin-top: 1rem;
-  display: grid;
-  grid-template-columns: repeat(4, max-content);
-  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
   align-items: center;
-  justify-items: start;
+  justify-content: flex-start;
+  padding-left: 0;
 }
 
 .member-card {
   border: none;
   border-radius: 0;
   padding: 0;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   text-decoration: none;
-  width: min(360px, 100%);
+  width: auto;
+  height: auto;
+  margin-left: 0;
+  min-width: 0;
 }
 
-.member-card img {
-  width: 100%;
-  height: auto;
+.member-card--aireceive {
+  width: auto;
+}
+
+.member-card--dark {
+  background: #000000;
+  padding: 0.85rem 1.1rem;
+  border-radius: 0.5rem;
+}
+
+.member-card--dark .member-logo {
+  height: 46px;
+}
+
+.member-logo {
+  width: auto;
+  height: 58px;
+  object-fit: contain;
+  object-position: left center;
   display: block;
+  max-width: 100%;
+}
+
+.member-logo--aireceive {
+  width: auto;
+  height: 136px;
 }
 
 @media (max-width: 996px) {
+  .members-grid {
+    gap: 0.9rem;
+  }
+
+  .member-card {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .member-card--aireceive {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .member-logo {
+    height: 48px;
+  }
+
+  .member-card--dark .member-logo {
+    height: 40px;
+  }
+
+  .member-logo--aireceive {
+    height: 96px;
+  }
+
   .hero {
     padding: 1.25rem 0;
   }
